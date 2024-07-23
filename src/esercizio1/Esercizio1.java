@@ -9,6 +9,7 @@ public class Esercizio1 {
         System.out.println("Inserisci una parola per vedere se ha un numero di caratteri pari o dispari");
         String inserisciStringa = scanner.nextLine();
 
+
         if (inserisciStringa.length() % 2 != 0) {
             return true;
         } else {
